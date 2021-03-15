@@ -10,11 +10,11 @@ class C1Test {
     C1 c1 = new C1();
 
 
-//    @Disabled
-//    @Test
-//    void plus() {
-//        assertEquals(c1.plus(), 7, "Ololo");
-//    }
+    @Disabled
+    @Test
+    void plus() {
+        assertEquals(c1.plus(), 7, "Ololo");
+    }
 
     //todo
 
@@ -23,8 +23,8 @@ class C1Test {
         assertEquals(1, 1, "Passed");
     }
 
-//    @Test
-//    void always_fail() {
-//        assertTrue(1 == 2, "Fail!");
-//    }
+    @Test
+    void always_fail() {
+        assertTrue(1 == 2, "Fail!");
+    }
 }
