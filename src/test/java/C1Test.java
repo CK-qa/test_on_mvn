@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class C1Test {
 
-    C1 c1 = new C1();
+C1 c1 = new C1();   
 
 
     @Disabled
@@ -20,7 +20,7 @@ class C1Test {
 
     @Test
     void always_pass() {
-        assertEquals(1, 1, "Passed");
+        assertEquals(1, 2, "Passed");
     }
 
     @Test
