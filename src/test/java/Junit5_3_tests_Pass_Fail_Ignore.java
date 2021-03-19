@@ -1,13 +1,11 @@
-import org.junit.Ignore;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-class C1Test {
-
-C1 c1 = new C1();   
+class Junit5_3_tests_Pass_Fail_Ignore {
+    C1 c1 = new C1();
 
 
     @Disabled
@@ -16,7 +14,10 @@ C1 c1 = new C1();
         assertEquals(c1.plus(), 7, "Ololo");
     }
 
-    //todo
+    //fixme test pre-commit
+
+    //todo test pre-commit
+
 
     @Test
     void always_pass() {
