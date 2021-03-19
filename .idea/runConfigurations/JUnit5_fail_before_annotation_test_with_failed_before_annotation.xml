@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="JUnit5_fail_before_annotation.test_with_failed_before_annotation" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+    <module name="test_on_mvn" />
+    <option name="PACKAGE_NAME" value="" />
+    <option name="MAIN_CLASS_NAME" value="JUnit5_fail_before_annotation" />
+    <option name="METHOD_NAME" value="test_with_failed_before_annotation" />
+    <option name="TEST_OBJECT" value="method" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
