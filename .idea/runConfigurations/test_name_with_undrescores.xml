@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="test_name_with_undrescores" type="JUnit" factoryName="JUnit">
+    <module name="test_on_mvn" />
+    <option name="PACKAGE_NAME" value="" />
+    <option name="MAIN_CLASS_NAME" value="JUint5_Passed_and_Ignored" />
+    <option name="METHOD_NAME" value="test_passed_before_ignored" />
+    <option name="TEST_OBJECT" value="method" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
