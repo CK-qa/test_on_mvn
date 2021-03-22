@@ -21,8 +21,12 @@ class Junit5_3_tests_Pass_Fail_Ignore {
 
     @Test
     void always_pass() {
-        assertEquals(1, 1, "Passed");
+        assertEq uals(1, 1, "Passed")
     }
+
+    /**
+     * pewpew
+     */
 
     @Test
     void always_fail() {
