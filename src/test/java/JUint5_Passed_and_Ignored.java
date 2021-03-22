@@ -16,11 +16,6 @@ public class JUint5_Passed_and_Ignored {
     }
 
 
-    void ppp() {
-        for (int i = 0; i < 1; i++) {
-
-        }
-    }
 
     void ppp() {
         for (int i = 0; i < 1; i++) {
