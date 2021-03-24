@@ -4,13 +4,14 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-class Junit5_3_tests_Pass_Fail_Ignore {
+public class Junit5_3_tests_Pass_Fail_Ignore {
     C1 c1 = new C1();
 
 
     @Disabled
     @Test
-    void plus() {
+    void plus() throws InterruptedException {
+        Thread.sleep(10000);
         assertEquals(c1.plus(), 7, "Ololo");
     }
 
