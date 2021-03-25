@@ -10,7 +10,4 @@ class GClass_Test extends GroovyTestCase {
         assertEquals(expected, actual)
     }
 
-
 }
-
-1

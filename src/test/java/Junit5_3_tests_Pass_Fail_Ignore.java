@@ -2,7 +2,6 @@ import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class Junit5_3_tests_Pass_Fail_Ignore {
     C1 c1 = new C1();
@@ -28,10 +27,11 @@ public class Junit5_3_tests_Pass_Fail_Ignore {
 
     /**
      * pewpew
+     *
      */
 
     @Test
     void always_fail() {
-        assertTrue(1 == 2, "Fail!");
+        assertEquals(1, 2, "Fail!");
     }
 }
